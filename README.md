@@ -7,7 +7,7 @@
 ## 一、集成 SDK
 
 下载微信原生小游戏 SDK，在 game.js 中引入对应的 SDK 文件：
-[下载小游戏](https://raw.githubusercontent.com/ABetterChoice/mp-sdk/master/abetterchoice.mg.wx.min.js)
+[下载小游戏](https://raw.githubusercontent.com/ABetterChoice/tt-mp-sdk/master/abetterchoice.mg.tt.min.js)
 
 ```typescript
 const ABetterChoice = require("./abetterchoice.mg.tt.min.js");
@@ -167,7 +167,7 @@ const boolValue = configInfo?.getBoolValue(false);
 
 ## 三、最佳实践
 
-[下载小游戏 SDK (下载小游戏)](https://download.thinkingdata.cn/client/release/ta_mg_sdk.zip), 在 game.js 中引入对应的 SDK 文件，引入 SDK 之后，您就可以创建 SDK 实例，开始上报数据了：
+[下载小游戏 SDK (下载小游戏)](https://github.com/ABetterChoice/tt-mp-sdk/archive/refs/heads/main.zip), 在 game.js 中引入对应的 SDK 文件，引入 SDK 之后，您就可以创建 SDK 实例，开始上报数据了：
 
 ```typescript
 // 初始化配置参数
